@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 const Blog = require('./models/blog');
 const { render } = require('ejs');
 //connect to mongo db
-const dbURI = 'mongodb+srv://ibrahimowich1:AyaDina-2@nodetuts.zmd7kcg.mongodb.net/nodetuts?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://ibra_nodetut_blogwebapp:pkRZGH2pHA3WxY92@nodetuts.zmd7kcg.mongodb.net/nodetuts?retryWrites=true&w=majority';
 mongoose.connect(dbURI,  { useNewUrlParser: true, useUnifiedTopology: true }); // pass  { useNewUrlParser: true, useUnifiedTopology: true } to eliminate deprication warning
 
 app.set('view engine', 'ejs');
